@@ -1,0 +1,85 @@
+main{
+    justify-content: left;
+}
+h1{
+    background-color: rgba(157, 228, 15, 0.664);
+    font-size: 100px;  
+    text-align: center;
+    padding:10px;
+    margin-top:  -15px;
+    border : 10px  solid black;
+    
+}
+h3{
+    font-size: 50px ;
+    background-color: rgba(157, 228, 15, 0.664);
+    border: 6px solid black;
+    padding:10px;
+    width: 100%;
+  
+}
+
+
+
+ol li:hover {
+    background-color: #02c912;
+    color: #f7f3e9;
+  }
+ol{
+    width: 100%;
+    font-size: 40px;
+    list-style: outside;
+    text-align: center;
+    background-color: rgba(157, 228, 15, 0.664);
+ 
+    padding : 15px 25px;
+    border: 1px solid black;
+}
+ol li{
+    border-bottom: 3px solid rgba(83, 83, 82, 0.705);
+    margin:10px;
+    padding-bottom:10px;
+
+}
+
+
+h6{
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(157, 228, 15, 0.664);
+    border: 4px solid black;
+    padding:20px;
+    width: 100%;
+    
+}
+ul li{
+    border-bottom: 3px solid rgba(83, 83, 82, 0.705);
+    margin:10px;
+    padding-bottom:10px;
+
+}
+
+ul li:hover {
+    background-color: #607D8B;
+    color: #f7f3e9;}
+ul{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(157, 228, 15, 0.664);
+    border: 1px solid black;
+}
+footer{
+    color:rgba(241, 241, 235, 0.801);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(157, 228, 15, 0.664);
+    margin-top: 100px;
+
+    }
+    .copy {
+       padding-top: 10px;
+        color: black;
+        text-align: center;
+    } 
