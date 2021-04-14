@@ -4,26 +4,30 @@ const username = prompt('whats your name ') .toLowerCase();
 console.log( 'username var = ', username);
 
 function printName(name) {
-    let functionname = name ;
+   let functionname = name ;
 
 }
 
-let classnumber = prompt('what do u do for living ');
-
-switch (username) {
+let username = prompt('what my name');
+function muName(username){
+  switch (username) {
     case 'laith':
-        alert(username);
+        alert('yes my name is '+username);
         break;
-    case 'fayiz' :
-        alert (username);
+    case 'fayiz':
+        alert ('no that not my name' + username);
     break;
     default:
-        alert (' hello  ');
+        alert ('no that not my name');
         break;
 }
+}
+muName(username)
+
+
 function checkint(int) {
     if (int == 'yes') {
-      return true;
+     return true;
     } else {
       return confirm('do u wanna take a look before u go?');
     }
@@ -34,6 +38,6 @@ function checkint(int) {
   if ( checkint(int) ) {
     alert( 'you are welocme ' );
   } else {
-    alert( 'maybe anther time  ' );
+   alert( 'maybe anther time  ' );
      }
      
