@@ -20,23 +20,8 @@ function q1(){
 }
 q1();
 
-function q2(){
-  let answer2 = prompt('do you think im bad in sport?','yes , no');
-  switch(answer2.toLowerCase()){
-  case 'yes':
-  case 'y':
-    alert('your answer is wrong, focus.');
-    break;
-  case 'no':
-  case'n':
-    alert('your answer is right.');
-    score+=1;
-    break;
-  default:
-    alert('please choose only yes or no');
-  }
-}
-q2();
+function printName(name) {
+   let functionname = name ;
 
 function q3(){
   let answer3 = prompt('do you think im bad at programming?','yes , no');
