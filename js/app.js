@@ -1,9 +1,9 @@
 'use strict';
- let score = 0;
- alert(' hello test ');
+let score = 0;
+alert('hello for test');
 
 function q1(){
-  let answer1 = prompt('do you think im slow one ?','yes , no');
+  let answer1 = prompt('do you think im progrmar?','yes , no');
   switch(answer1.toLowerCase()){
   case 'yes':
   case 'y':
@@ -20,8 +20,23 @@ function q1(){
 }
 q1();
 
-function printName(name) {
-   let functionname = name ;
+function q2(){
+  let answer2 = prompt('do you think im a short person?','yes , no');
+  switch(answer2.toLowerCase()){
+  case 'yes':
+  case 'y':
+    alert('your answer is wrong, focus.');
+    break;
+  case 'no':
+  case'n':
+    alert('your answer is right.');
+    score+=1;
+    break;
+  default:
+    alert('please choose only yes or no');
+  }
+}
+q2();
 
 function q3(){
   let answer3 = prompt('do you think im bad at programming?','yes , no');
@@ -42,7 +57,7 @@ function q3(){
 q3();
 
 function q4(){
-  let answer4 = prompt('do you think i can get angry so fast?','yes , no');
+  let answer4 = prompt('do you think i work too hard?','yes , no');
   switch(answer4.toLowerCase()){
   case 'yes':
   case 'y':
@@ -94,7 +109,7 @@ function q6 (){
       break;
     }
     answer6=prompt('guess how tall i am in centimeters?');
- }
+  }
 }
 q6();
 
@@ -120,7 +135,8 @@ function q7 (){
       }
       answer7 = prompt('wrong answer, please try another guess?');
     }
-  }
-  
-  q7();
-  alert('okey, your score is '+score+' out of 7');
+}
+    q7();
+    alert('okey, your score is '+score+' out of 7');
+
+
